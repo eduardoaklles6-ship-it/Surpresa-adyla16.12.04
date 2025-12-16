@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #9d5a7d;
+  text-align: center;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+/* Header */
+.main-header {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #777;
+}
+
+nav a:hover {
+  color: #9d5a7d;
+}
+
+/* Hero */
+.hero {
+  background: #fff0f5;
+  text-align: center;
+}
+
+.mensagem-destaque {
+  font-style: italic;
+  color: #8b0000;
+  border-left: 4px solid #9d5a7d;
+  padding-left: 15px;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+/* Countdown */
+#countdown-container {
+  border: 2px dashed #9d5a7d;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* Galeria */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,.15);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Timeline */
+.timeline-item {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  max-width: 600px;
+  border-left: 4px solid #9d5a7d;
+}
+
+/* Música */
+.music-player-box {
+  background: white;
+  padding: 20px;
+  max-width: 560px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: #9d5a7d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
